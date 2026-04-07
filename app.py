@@ -1,7 +1,3 @@
-import pandas as pd
-
-jobs = pd.read_csv("jobs.csv")  # columns: Job Title, Skills
-matching_jobs = jobs[jobs['Skills'].str.contains(skill, case=False)]
 import streamlit as st
 
 # Greeting
