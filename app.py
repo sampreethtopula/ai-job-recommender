@@ -1,5 +1,21 @@
 import streamlit as st
 
+# Step 1: Greeting
+st.write("Hello! Nenu live app lo update chesa 😎")
+
+# Step 2: User name input
+name = st.text_input("Enter your name:")
+if name:
+    st.write(f"Welcome, {name}! 🎉")
+
+# Step 3: Job recommendation (add this next)
+skills = st.text_area("Enter your skills (comma separated):")
+if skills:
+    st.write("Recommended jobs based on your skills:")
+    for skill in skills.split(","):
+        st.write(f"- {skill.strip()} Engineer")
+import streamlit as st
+
 st.write("Hello! Nenu live app lo update chesa 😎")
 
 # User input
