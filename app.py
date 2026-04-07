@@ -1,4 +1,7 @@
 import streamlit as st
+
+st.write("Hello! Nenu live app lo update chesa 😎")
+import streamlit as st
 import pandas as pd
 from PyPDF2 import PdfReader
 from sklearn.feature_extraction.text import TfidfVectorizer
