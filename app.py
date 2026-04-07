@@ -1,7 +1,5 @@
 import streamlit as st
 
-#import streamlit as st
-
 # Greeting
 st.write("Hello! Nenu live app lo update chesa 😎")
 
@@ -16,17 +14,7 @@ if skills:
     st.write("Recommended jobs based on your skills:")
     for skill in skills.split(","):
         st.write(f"- {skill.strip()} Engineer")
-import streamlit as st
 
-st.write("Hello! Nenu live app lo update chesa 😎")
-
-# User input
-name = st.text_input("Enter your name:")
-if name:
-    st.write(f"Welcome, {name}! 🎉")
-import streamlit as st
-
-st.write("Hello! Nenu live app lo update chesa 😎")
 import streamlit as st
 import pandas as pd
 from PyPDF2 import PdfReader
