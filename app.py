@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Greeting
-st.write("Hello! Nenu live app lo update chesa 😎")
+st.write("Hello! i am updating live app 😎")
 
 # User name input
 name = st.text_input("Enter your name:", key="username_input")
